@@ -1,6 +1,10 @@
 # phone-i-dator
 ## 100% mobile | see the world! 🌏
 
+[Samsung Galaxy A12 on Mintscan](https://www.mintscan.io/bitsong/validators/bitsongvaloper1wq3hjdygz9n84z826p56zft0e45kmlfrnsy4p4)
+
+[Ping Uptime](https://ping.pub/bitsong/uptime)
+
 ## some system specs
 
 ![systemspecs1](https://user-images.githubusercontent.com/98429202/183549993-a0256005-d358-43a2-8423-44d517b5af33.jpg)
