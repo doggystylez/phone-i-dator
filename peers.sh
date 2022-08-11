@@ -31,6 +31,7 @@ then
       ((x++))
     fi
   done
+  printf "\n"
 else
   printf "\nlist of all ${GREEN}connected${NC} peers:\n\n"
   while [ $x -lt $COUNT ]
@@ -42,4 +43,5 @@ else
     echo $PEER
     ((x++))
   done
+  printf "\n"
 fi
