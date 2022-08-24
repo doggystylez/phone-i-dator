@@ -15,7 +15,7 @@ DATA=$(curl -s $RPC/net_info)
 if [  -z "$DATA" ]
 then
   printf "%b\n${RED}rpc%b${NC} error\n\n"
-  exit
+  exit 1
 fi
 NETWORK=$(echo $DATA | jq '.result | .peers | .[0] | .node_info | .network' | tr -d '"')
 COUNT=$(echo $DATA | jq '.result | .n_peers' | tr -d '"')
@@ -54,4 +54,3 @@ else
   done
   printf "\n"
 fi
-exit
